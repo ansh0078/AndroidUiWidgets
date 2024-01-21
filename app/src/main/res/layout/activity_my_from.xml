@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFrom"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_name_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/et_password_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Ener Password"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android" />
+
+        <CheckBox
+            android:id="@+id/cb_python"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python" />
+
+        <CheckBox
+            android:id="@+id/cb_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java" />
+
+        <CheckBox
+            android:id="@+id/cb_cpp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++" />
+
+    <Spinner
+        android:id="@+id/sp_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/courses"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="getAllDetails"/>
+
+
+</LinearLayout>

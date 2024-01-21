@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidUiWidgets</string>
+
+    <string-array name="courses">
+        <item> Btech </item>
+        <item> Mtech </item>
+        <item> Diploma </item>
+        <item> BCA </item>
+        <item> MCA </item>
+
+
+    </string-array>
+</resources>
